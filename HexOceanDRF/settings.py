@@ -27,7 +27,7 @@ SECRET_KEY = 'django-insecure-x=b(9vol(#=k8d#zfgmf6nd-ksad+d14miq!8)jgq_0j_!=vk0
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = False
 
-ALLOWED_HOSTS = ['127.0.0.1']
+ALLOWED_HOSTS = ['127.0.0.1', 'kd-image-api.herokuapp.com']
 
 
 # Application definition
@@ -134,6 +134,7 @@ AUTH_USER_MODEL = 'api.User'
 STATIC_URL = '/static/'
 MEDIA_ROOT = os.path.join(BASE_DIR / 'media')
 MEDIA_URL = '/media/'
+STATIC_ROOT = os.path.join(BASE_DIR, 'staticfiles')
 
 # Default primary key field type
 # https://docs.djangoproject.com/en/3.2/ref/settings/#default-auto-field
