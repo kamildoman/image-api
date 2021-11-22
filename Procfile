@@ -1,1 +1,1 @@
-web: gunicorn cvbuilder.wsgi --log-file -
+web: gunicorn HexOceanDRF.wsgi --log-file -
